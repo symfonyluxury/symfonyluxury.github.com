@@ -13,7 +13,8 @@ description: ""
 			<address>
 				<strong>luxury.</strong><br>
 				上海浦东新区<br>
-				<a href="mailto:#">symfonyluxury@gmail.com</a>
+				<a href="https://github.com/symfonyluxury">My github</a>
+				<i class="icon-envelope"> </i><a href="mailto:#">symfonyluxury@gmail.com</a>
 			</address>
 		</div>
 	</div>
