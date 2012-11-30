@@ -2,6 +2,8 @@
 html, body {
   background-color: #eee;
   font-family: "微软雅黑";
+  background: url("../images/background.jpg");
+  /*min-width: 980px;*/
 }
 .navbar {
   margin-bottom: 0;
