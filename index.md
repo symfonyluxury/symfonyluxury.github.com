@@ -22,8 +22,8 @@ tagline: 快乐码农
               <ul class="tag_box inline unstyled post-ul">
                 <li>
                   <i class="icon-user"> </i> by <a href="/aboutMe.html">{{ site.author.name }}</a>
-                  | <i class="icon-list"> </i> {{ post.category }}
-                  | <i class="icon-tags"> </i> 分类：
+                  | <i class="icon-list"> </i> 分类：{{ post.category }}
+                  | <i class="icon-tags"> </i> 标签：
                 </li>
                 {% assign tags_list = post.tags %}  
                 {% include JB/tags_list %}

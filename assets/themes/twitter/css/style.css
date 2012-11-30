@@ -37,6 +37,32 @@ html, body {
   border: 0;
 }
 
+/* Index post header */
+.posts h3 {
+  background: #FBF3DC;
+  border-radius: 5px;
+  margin: 20px 0px 0 0;
+  padding: 7px 20px;
+}
+
+.posts em {
+  margin-left: 10px;
+}
+
+/* article */
+.article * {
+  line-height: 2em;
+  margin-left: 10px;
+}
+
+/* right sidebar */
+#right-sidebar {
+  background: #E8F3F8;
+  border-radius: 2px;
+  line-height: 21px;
+  margin-left: 55px;
+  padding: 20px;
+}
 
 /* tag_box ======================================================== */
 
