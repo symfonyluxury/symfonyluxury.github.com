@@ -13,7 +13,7 @@ description: ""
 			<address>
 				<strong>luxury.</strong><br>
 				上海浦东新区<br>
-				<a href="https://github.com/symfonyluxury" target="_blank">Github</a>
+				<a href="https://github.com/symfonyluxury" target="_blank">Github</a>, 
 				<a href="mailto:symfonyluxury@gmail.com">symfonyluxury@gmail.com</a>
 			</address>
 		</div>
