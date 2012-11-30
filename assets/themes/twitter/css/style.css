@@ -1,6 +1,7 @@
 /* Override some defaults */
 html, body {
   background-color: #eee;
+  font-family: "微软雅黑";
 }
 .navbar {
   margin-bottom: 0;
@@ -47,6 +48,9 @@ html, body {
 }
 .tag_box li {
 	line-height:28px;
+}
+.post-ul li {
+	line-height:11px;
 }
 .tag_box.inline li {
 	float:left;
