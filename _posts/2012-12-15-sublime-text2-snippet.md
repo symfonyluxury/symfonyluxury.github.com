@@ -23,16 +23,9 @@ Hello, ${1:this} is a ${2:snippet}.
 在我工作过程中经常需要用到twitter bootstrap代码，比如alert-message。每次都要手动写很麻烦，还需要记(好吧，我记忆是不好)。如果直接把代码写入snippet当中：
 
 <pre class="prettyprint linenums">
-<snippet>
-	<content><![CDATA[
-    <div class="alert alert-">
-	    <button type="button" class="close" data-dismiss="alert">&times;</button>
-	    <strong>Warning!</strong> Best check yo self, you're not looking too good.
-    </div>
-]]></content>
-	<tabTrigger>alert</tabTrigger>
-	<description>twitter bootstrap alert</description>
-</snippet>
+<pre class="prettyprint linenums">
+    <!-- 包围其中 -->
+</pre>
 </pre>
 
 {% include JB/setup %}
