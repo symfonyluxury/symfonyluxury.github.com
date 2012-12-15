@@ -23,11 +23,9 @@ Hello, ${1:this} is a ${2:snippet}.
 在我工作过程中经常需要用到twitter bootstrap代码，比如alert-message。每次都要手动写很麻烦，还需要记(好吧，我记忆是不好)。如果直接把代码写入snippet当中：
 
 <pre class="prettyprint linenums">
-	<code>
 int x = foo();  /* This is a comment  This is not code
   Continuation of comment */
 int y = bar();
-	</code>
 </pre>
 
 {% include JB/setup %}
