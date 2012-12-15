@@ -5,11 +5,12 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
+mardown: --rdiscount
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title :  漫步云海 - 技术Blog
+title :  漫步云海 - Blog
 tagline: Site Tagline
 author :
   name : 漫步云海
