@@ -7,7 +7,7 @@ tags: [sublime text2]
 ---
 首先依次进入`Tools->New Snippet`,模板大概如下:
 
-<pre class="prettyprint linenums">
+<pre class="prettyprint lang-html">
 <snippet>
 	<content><![CDATA[
 Hello, ${1:this} is a ${2:snippet}.
@@ -22,17 +22,10 @@ Hello, ${1:this} is a ${2:snippet}.
 其中`[CDATA[]]`里的内容就是需要添加代码片段的位置处。
 在我工作过程中经常需要用到twitter bootstrap代码，比如alert-message。每次都要手动写很麻烦，还需要记(好吧，我记忆是不好)。如果直接把代码写入snippet当中：
 
-<pre class="prettyprint linenums">
-		>snippet<
-			>content<<![CDATA[
-		    <div class="alert alert-">
-			    <button type="button" class="close" data-dismiss="alert">&times;</button>
-			    <strong>Warning!</strong> Best check yo self, you're not looking too good.
-		    </div>
-		]]>>/content<
-			>tabTrigger>alert>/tabTrigger<
-			>description>twitter bootstrap alert>/description<
-		>/snippet<
+<pre class="prettyprint">
+    <link href="{\{ ASSET_PATH }\}/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" media="all">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="{\{ ASSET_PATH }\}/google-code-prettify/prettify.js"></script>
 </pre>
 
 {% include JB/setup %}
