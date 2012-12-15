@@ -1,3 +1,5 @@
- $(document).ready(function(){
- $('pre').addClass('prettyprint linenums') 
- })
+    !function ($) {
+    $(function(){
+    window.prettyPrint && prettyPrint();
+    });
+    }(window.jQuery);
