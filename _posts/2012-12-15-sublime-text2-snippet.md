@@ -24,16 +24,9 @@ Hello, ${1:this} is a ${2:snippet}.
 
 <pre class="prettyprint linenums">
 	<code>
-		<snippet>
-			<content><![CDATA[
-		    <div class="alert alert-">
-			    <button type="button" class="close" data-dismiss="alert">&times;</button>
-			    <strong>Warning!</strong> Best check yo self, you're not looking too good.
-		    </div>
-		]]></content>
-			<tabTrigger>alert</tabTrigger>
-			<description>twitter bootstrap alert</description>
-		</snippet>
+int x = foo();  /* This is a comment  This is not code
+  Continuation of comment */
+int y = bar();
 	</code>
 </pre>
 
