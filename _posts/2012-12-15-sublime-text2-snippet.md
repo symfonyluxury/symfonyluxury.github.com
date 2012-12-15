@@ -7,7 +7,7 @@ tags: [sublime text2]
 ---
 首先依次进入`Tools->New Snippet`,模板大概如下:
 
-{% highlight ruby %}
+{% highlight html %}
 <snippet>
 	<content><![CDATA[
 Hello, ${1:this} is a ${2:snippet}.
@@ -22,7 +22,7 @@ Hello, ${1:this} is a ${2:snippet}.
 其中`[CDATA[]]`里的内容就是需要添加代码片段的位置处。
 在我工作过程中经常需要用到twitter bootstrap代码，比如alert-message。每次都要手动写很麻烦，还需要记(好吧，我记忆是不好)。如果直接把代码写入snippet当中：
 
-{% highlight ruby %}
+{% highlight %}
 <snippet>
 	<content><![CDATA[
     <div class="alert alert-">
