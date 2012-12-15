@@ -7,7 +7,7 @@ tags: [sublime text2]
 ---
 首先依次进入`Tools->New Snippet`,模板大概如下:
 
-<pre>
+```
 <snippet>
 	<content><![CDATA[
 Hello, ${1:this} is a ${2:snippet}.
@@ -17,12 +17,12 @@ Hello, ${1:this} is a ${2:snippet}.
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
-</pre>
+```
 
 其中`[CDATA[]]`里的内容就是需要添加代码片段的位置处。
 在我工作过程中经常需要用到twitter bootstrap代码，比如alert-message。每次都要手动写很麻烦，还需要记(好吧，我记忆是不好)。如果直接把代码写入snippet当中：
 
-<pre>
+```
 <snippet>
 	<content><![CDATA[
     <div class="alert alert-">
@@ -33,7 +33,7 @@ Hello, ${1:this} is a ${2:snippet}.
 	<tabTrigger>alert</tabTrigger>
 	<description>twitter bootstrap alert</description>
 </snippet>
-</pre>
+```
 
 编辑器中输入`alert` 然后`tab`，以上代码就出来了，是不是很方便呵呵。
 
