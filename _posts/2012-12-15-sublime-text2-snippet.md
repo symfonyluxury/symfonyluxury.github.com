@@ -7,7 +7,10 @@ tags: [sublime text2]
 ---
 首先依次进入`Tools->New Snippet`,模板大概如下:
 
-{% highlight html %}
+{% highlight php %}
+<?php
+echo $gaga;
+?>
 <snippet>
 	<content><![CDATA[
 Hello, ${1:this} is a ${2:snippet}.
