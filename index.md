@@ -1,7 +1,7 @@
 ---
 layout: page
 title: luxury
-tagline: 快乐码农
+tagline: "pain is inevitable, but suffering is optional"
 ---
 {% include JB/setup %}
 
