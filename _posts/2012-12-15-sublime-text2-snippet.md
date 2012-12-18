@@ -10,6 +10,7 @@ tags: [sublime text2]
 首先进入`Tools->New Snippet`,模板大概如下:
 <pre>
 	<code>
+		{% raw %}
 <div class="span6 well">
 	<div class="row">
 		<div class="span1"><a href="#" class="thumbnail">
@@ -21,6 +22,7 @@ tags: [sublime text2]
 				<a href="https://github.com/symfonyluxury" target="_blank">Github</a>, 
 				<a href="mailto:symfonyluxury@gmail.com">symfonyluxury@gmail.com</a>
 			</address>
+			{% endraw %}
 	</code>
 </pre>
 
