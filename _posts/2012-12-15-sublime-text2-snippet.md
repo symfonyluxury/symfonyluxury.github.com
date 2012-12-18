@@ -24,16 +24,7 @@ Hello, ${1:this} is a ${2:snippet}.
 例如在我的工作中经常需要用到twitter bootstrap代码，比如alert-message。每次都要手动写很麻烦，还需要记(好吧，我记忆是不好)。如果直接把代码写入snippet当中：
 
 <textarea id="code" name="code">
-<snippet>
-	<content><![CDATA[
-    <div class="alert alert-">
-	    <button type="button" class="close" data-dismiss="alert">&times;</button>
-	    <strong>Warning!</strong> Best check yo self, you're not looking too good.
-    </div>
-]]></content>
-	<tabTrigger>alert</tabTrigger>
-	<description>twitter bootstrap alert</description>
-</snippet>
+
 </textarea>
 
 编辑器中输入`alert` 然后`tab`，以上代码就直接调出来了，是不是很方便呵呵。
