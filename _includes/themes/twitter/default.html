@@ -23,7 +23,7 @@
     <link rel="shortcut icon" href="{{ ASSET_PATH }}/favicon.ico">
     <script type="text/javascript">
     $(function() {
-      var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+      var editor = CodeMirror.fromTextArea($('.code'), {
           lineNumbers: true,
           theme: "ambiance"
         });

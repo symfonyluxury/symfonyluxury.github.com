@@ -8,7 +8,7 @@ tags: [sublime text2]
 很多时候我们需要一个快捷键（组合）来导入想要的代码，比如导入一段html片段或者jquery ajax()，不用我们每次挨个的写。这存在于很多大型IDE中。其实，sublime text2也支持哦
 
 首先进入`Tools->New Snippet`,模板大概如下:
-<textarea id="code" name="code">
+<textarea class="code" name="code" readonly=1 >
 function nima ()
 {
 	alert('1212');
