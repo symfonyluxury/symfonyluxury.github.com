@@ -10,8 +10,17 @@ tags: [sublime text2]
 首先进入`Tools->New Snippet`,模板大概如下:
 <pre>
 	<code>
-		121
-		1221
+<div class="span6 well">
+	<div class="row">
+		<div class="span1"><a href="#" class="thumbnail">
+			<img src="{{ ASSET_PATH }}twitter/images/me.png" alt=""></a></div>
+		<div class="span5">
+			<address>
+				<strong>luxury.</strong><br>
+				上海浦东新区<br>
+				<a href="https://github.com/symfonyluxury" target="_blank">Github</a>, 
+				<a href="mailto:symfonyluxury@gmail.com">symfonyluxury@gmail.com</a>
+			</address>
 	</code>
 </pre>
 
