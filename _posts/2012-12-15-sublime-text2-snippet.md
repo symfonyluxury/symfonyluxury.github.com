@@ -9,12 +9,12 @@ tags: [sublime text2]
 
 首先进入`Tools->New Snippet`,模板大概如下:
 
-{% gist 4295702 %}
+
 
 其中`[CDATA[]]`里的内容就是需要添加代码片段的位置。
 例如在我的工作中经常需要用到twitter bootstrap代码，比如alert-message。每次都要手动写很麻烦，还需要记(好吧，我记忆是不好)。如果直接把代码写入snippet当中：
 
-{% gist 4295941 %}
+
 
 编辑器中输入`alert` 然后`tab`，以上代码就直接调出来了，是不是很方便呵呵。
 
