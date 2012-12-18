@@ -9,10 +9,11 @@ tags: [sublime text2]
 
 首先进入`Tools->New Snippet`,模板大概如下:
 <textarea id="code" name="code">
-function(dsf)
-{
-	alert(1212);
-}
+<snippet>
+	<content><![CDATA[
+Hello, ${1:this} is a ${2:snippet}.
+]]></content>
+</snippet>
 </textarea>
 
 其中`[CDATA[]]`里的内容就是需要添加代码片段的位置。
