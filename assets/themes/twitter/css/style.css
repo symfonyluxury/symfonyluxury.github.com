@@ -54,7 +54,7 @@ html, body {
 /* article */
 .article * {
   line-height: 2em;
-  margin-left: 10px;
+/*  margin-left: 10px;*/
 }
 
 /* right sidebar */
