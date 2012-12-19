@@ -5,6 +5,12 @@ html, body {
   background: url("../images/background.jpg");
   /*min-width: 980px;*/
 }
+
+pre {
+  border: 0px;
+  padding: 0px;
+  font-family: Monaco,"微软雅黑";
+}
 .navbar {
   margin-bottom: 0;
 }
