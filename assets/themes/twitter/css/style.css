@@ -107,3 +107,9 @@ pre {
 	color:#FFF;
 }
 	
+::-moz-selection{
+  background: #386774; color: white; 
+}
+::selection{
+  background: #386774; color: white;  
+}
