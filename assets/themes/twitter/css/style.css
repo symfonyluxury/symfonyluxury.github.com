@@ -6,9 +6,11 @@ html, body {
   /*min-width: 980px;*/
 }
 
-pre code{
+pre {
   border: 0px;
   padding: 0px;
+}
+pre code{
   font-size: 14px !important;
 }
 .navbar {
