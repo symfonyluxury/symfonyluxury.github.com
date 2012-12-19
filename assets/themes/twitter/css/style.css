@@ -6,10 +6,10 @@ html, body {
   /*min-width: 980px;*/
 }
 
-pre {
+pre code{
   border: 0px;
   padding: 0px;
-  font-size: 14px;
+  font-size: 14px !important;
 }
 .navbar {
   margin-bottom: 0;
