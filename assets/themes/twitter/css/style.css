@@ -9,7 +9,7 @@ html, body {
 pre {
   border: 0px;
   padding: 0px;
-  font-family: Monaco,"微软雅黑";
+  font-size: 14px;
 }
 .navbar {
   margin-bottom: 0;
