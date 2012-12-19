@@ -10,39 +10,7 @@ tags: [sublime text2]
 首先进入`Tools->New Snippet`,模板大概如下:
 
 ```
-require_once 'Zend/Uri/Http.php';
-
-abstract class URI extends BaseURI
-{
-
-  /**
-   * Returns a URI
-   *
-   * @return  URI
-   */
-  static public function _factory($stats = array(), $uri = 'http')
-  {
-      $uri = explode(':', $uri, 0b10);
-      $schemeSpecific = isset($uri[1]) ? $uri[1] : '';
-      $desc = 'Multi
-line description';
-
-      // Security check
-      if (!ctype_alnum($scheme)) {
-          throw new Zend_Uri_Exception('Illegal scheme');
-      }
-
-      return [
-        'uri' => $uri,
-        'value' => null,
-      ];
-  }
-}
-
-__halt_compiler () ; datahere
-datahere
-datahere */
-datahere
+fdf
 ```
 
 其中`[CDATA[]]`里的内容就是需要添加代码片段的位置。
