@@ -153,10 +153,9 @@ OK,慢慢来解释：
 
 
 1. 开始我们可以传递一个`D_Proxy`给`HelloWorld`。因为`D_Proxy`继承于`D`，所以它是符合[Liskov代换原则](http://zh.wikipedia.org/wiki/Liskov代換原則)的。
-2. 此时代理还未初始化，即空的
-3. 当代理中的`doSomething`被调用时，先检测有没有被初始化，然后真正的实例`D`会从service locator获取而来，然后传给`original`属性。
-4. 然后真正的方法在代理中被调用：`$this->original->doSomething();`。
-5. 因为原始的对象`D`是用`a`,`b`,和`c`初始化生成，所以代码如期执行。
+2. 当代理中的`doSomething`被调用时，先检测有没有被初始化，然后真正的实例`D`会从service locator获取而来，然后传给`original`属性。
+3. 然后真正的方法在代理中被调用：`$this->original->doSomething();`。
+4. 因为原始的对象`D`是用`a`,`b`,和`c`初始化生成，所以代码如期执行。
 
 
 所以，当我们调用`sayHello`时，成功避免了初始化`A`,`B`,`C`，还有`D`！哦也！
