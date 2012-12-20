@@ -6,8 +6,8 @@ html, body {
   /*min-width: 980px;*/
 }
 
-p {
-    font-size: 15px !imporatnt;
+.article p {
+    font-size: 15px;
 }
 
 pre {
