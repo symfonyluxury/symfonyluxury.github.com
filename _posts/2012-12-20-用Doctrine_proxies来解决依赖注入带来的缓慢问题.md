@@ -151,13 +151,11 @@ Doctrine Proxies是PHP中应用设计模式的[代理模式](http://zh.wikipedia
 
 OK,慢慢来解释：
 
-
-1. 1221。
-2. 这时代理还是没初始化的，即空的。
+1. 1221
+2. 232434
 3. 当代理中的`doSomething`被调用时，先检测有没有被初始化，然后真正的实例`D`会从service locator获取而来，然后传给`original`属性。
 4. 然后真正的方法在代理中被调用：`$this->original->doSomething();`。
 5. 因为原始的对象`D`是用`a`,`b`,和`c`初始化生成，所以代码如期执行。
-
 
 所以，当我们调用`sayHello`时，成功避免了初始化`A`,`B`,`C`，还有`D`！哦也！
 
