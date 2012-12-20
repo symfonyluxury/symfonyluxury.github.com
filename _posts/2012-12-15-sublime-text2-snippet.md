@@ -2,7 +2,7 @@
 layout: post
 title: "Sublime text2 自定义代码片段"
 description: "很多时候我们需要一个快捷键（组合）来导入想要的代码，就能很方便的实现一个片段功能，这存在于很多大型IDE中。其实，sublime text2也支持哦"
-category: 
+category: IDE
 tags: [sublime text2]
 ---
 很多时候我们需要一个快捷键（组合）来导入想要的代码，比如导入一段html片段或者jquery ajax()，不用我们每次挨个的写。这存在于很多大型IDE中。其实，sublime text2也支持哦
