@@ -2,9 +2,12 @@
 html, body {
   background-color: #eee;
   font-family: "微软雅黑";
-  font-size: 15px;
   background: url("../images/background.jpg");
   /*min-width: 980px;*/
+}
+
+p {
+    font-size: 15px !imporatnt;
 }
 
 pre {
