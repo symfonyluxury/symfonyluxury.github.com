@@ -5,7 +5,7 @@ description: "Symonfy2引入了许多高级语言常用的设计模式等高级�
 category: PHP
 tags: [方法思想]
 ---
-Symonfy2333引入了许多高级语言常用的设计模式等高级特征，进阶symfony，依赖注入（Dependency Injection）有时是个不可避免用来解决类间解耦的手段。
+Symonfy2引入了许多高级语言常用的设计模式等高级特征，进阶symfony，依赖注入（Dependency Injection）有时是个不可避免用来解决类间解耦的手段。
 
 ###依赖注入容器与其性能
 依赖注入容器能给程序带来许多好处，它可以允许你组合多种复杂的对象图表（object graphs）而无须受限于一些没必要的丑陋方法(通常是静态方法)。
