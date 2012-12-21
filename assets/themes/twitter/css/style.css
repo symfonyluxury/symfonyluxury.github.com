@@ -7,7 +7,7 @@ html, body {
 }
 
 .article p {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 pre {
@@ -65,7 +65,7 @@ pre code{
 
 /* article */
 .article * {
-  line-height: 1.5em;
+  line-height: 1.7em;
 /*  margin-left: 10px;*/
 }
 
